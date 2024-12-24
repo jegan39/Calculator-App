@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Calculator App</h1>
+        <div class="container">
+            <div class="top">
+                <input type=" text" id="display" placeholder=" ">
+                <button class="total" onclick="calculate()">=</button>
+            </div>
+            <div class="clear">
+                <button onclick="Clear()">CL</button> 
+            </div>
+            
+            <div class="all_btns">
+                <div class="inside_b">
+                    <ul class="left">
+                        <li><button onclick="append('1')">1</button></li>
+                        <li><button onclick="append('4')">4</button></li>
+                        <li><button onclick="append('7')">7</button></li>
+                        <li><button onclick="append('.')">.</button></li>  
+                    </ul>
+                    <ul class="middle">
+                        <li><button onclick="append('2')">2</button></li>
+                        <li><button onclick="append('5')">5</button></li>
+                        <li><button onclick="append('8')">8</button></li>
+                        <li><button onclick="append('0')">0</button></li>  
+                    </ul>
+                    <ul class="right">
+                        <li><button onclick="append('3')">3</button></li>
+                        <li><button onclick="append('6')">6</button></li>
+                        <li><button onclick="append('9')">9</button></li>
+                        <li><button onclick="append('#')">#</button></li>  
+                    </ul>
+                    <ul class="operator">
+                        <li><button onclick="append('+')">+</button></li>
+                        <li><button onclick="append('-')">-</button></li>
+                        <li><button onclick="append('*')">*</button></li>
+                        <li><button onclick="append('/')">/</button></li>  
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="calculator.js"></script>
+    </body>
+</html>

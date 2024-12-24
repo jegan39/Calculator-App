@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    list-style-type: none;
+    outline: none;
+}
+body{
+    flex-direction: column;
+    background: gainsboro;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+h1{
+    margin-bottom: 10px;
+}
+.container{
+    background: black;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    height: 350px;
+    width: 300px;
+
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clear{
+    display: flex;
+}
+
+.clear button{
+    background: red;
+    margin-top: 10px;
+    margin-left: 6px;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.top input{
+    height: 33px;
+    width: 200px;
+    opacity: 0.8;
+    color: white ;
+    background-color: rgba(84, 82, 82, 0.259);
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 5px;
+
+}
+.top button{
+    height: 33px;
+    width: 72px;
+    font-size: 25px;
+    background: orange;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.all_btns{
+    display: flex;
+    margin: 20px;
+}
+.all_btns .inside_b{
+    display: flex;
+}
+
+.inside_b button{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    margin: 3px;
+    margin-right: 10px;
+    border-radius: 60%;
+    font-size: 25px;
+    border: none;
+}
+.operator button{
+    background: orange;
+}
